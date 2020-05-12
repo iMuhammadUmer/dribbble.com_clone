@@ -7,6 +7,7 @@
   --grey: #6e6d7a;
   --pink: #ea4c89;
   --lightPink: #f082ac;
+  --silver: #f9f8fd;
 }
 a {
   text-decoration: none;
@@ -58,15 +59,42 @@ button {
   cursor: pointer;
   border: none;
 }
-#btnSignIn {
+#btnSignUp {
   height: 40px;
   width: 80px;
   background-color: var(--pink);
 }
-#btnSignIn:hover {
+#btnSignUp:hover {
   background-color: var(--lightPink);
 }
 main {
   width: 100%;
   height: 480px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--silver);
+}
+main .content {
+  height: inherit;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .col {
+  height: 230px;
+  width: 47%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+h1 {
+  font-size: 48px;
+  line-height: 56px;
+  font-weight: 700;
+}
+main img {
+  height: 360px;
+  width: 500px;
 }
