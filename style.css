@@ -119,11 +119,16 @@ select {
 }
 .cat .catRow {
   width: 60%;
-  background-color: var(--grey);
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-#btnFilter {
+.catRow a {
   color: black;
+}
+#btnFilter {
+  width: 92px;
+  color: black;
+  background-color: transparent;
+  border: 1px solid var(--grey);
 }
