@@ -141,4 +141,7 @@ select {
   flex-direction: column;
   background-color: var(--pink);
 }
-
+.designs .designsRow {
+    width: 50px;
+    background-color: blue;
+  }
