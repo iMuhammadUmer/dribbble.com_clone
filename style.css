@@ -132,3 +132,13 @@ select {
   background-color: transparent;
   border: 1px solid var(--grey);
 }
+.designs {
+  width: 90%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--pink);
+}
+
