@@ -134,7 +134,7 @@ select {
 }
 .designs {
   width: 90%;
-  height: 50px;
+  height: 500px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -142,6 +142,30 @@ select {
   background-color: var(--pink);
 }
 .designs .designsRow {
-    width: 50px;
-    background-color: blue;
-  }
+  width: 100%;
+  height: 230px;
+  display: flex;
+  justify-content: space-between;
+}
+.designsRow .designsCol {
+  height: inherit;
+  width: 275px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+.designsCol .img,
+a {
+  width: inherit;
+  height: 207px;
+  border-radius: inherit;
+}
+.designsCol .content {
+  width: inherit;
+}
+#img1 {
+  background: url(images/mnc_hike_kit8-net.jpg);
+  background-size: cover;
+}
