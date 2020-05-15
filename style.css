@@ -107,9 +107,9 @@ section {
 .cat {
   width: 90%;
   height: 40px;
-  /* background-color: black; */
   display: flex;
   justify-content: space-between;
+  margin: 3em 0 3em 0;
 }
 select {
   width: 115px;
@@ -134,12 +134,11 @@ select {
 }
 .designs {
   width: 90%;
-  height: 500px;
+  height: 2000px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
-  background-color: var(--pink);
 }
 .designs .designsRow {
   width: 100%;
