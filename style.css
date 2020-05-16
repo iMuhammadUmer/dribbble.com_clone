@@ -180,3 +180,8 @@ a {
   background: url(images/artboard_16_2x.png);
   background-size: cover;
 }
+.signUp {
+  width: 600px;
+  height: 200px;
+  background-color: #f082ac;
+}
