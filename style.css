@@ -224,5 +224,103 @@ a {
 footer {
   height: 350px;
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   border-top: 1px solid var(--hr);
+}
+footer .linksRow {
+  width: 95%;
+  height: 250px;
+  display: flex;
+  justify-content: space-between;
+}
+.linksRow .linksCol {
+  width: 320px;
+  height: 180px;
+  color: var(--grey);
+}
+.linksCol p {
+  width: 272px;
+  font-size: 13px;
+  line-height: 21px;
+  font-weight: 400;
+  color: var(--grey);
+  margin: 1em 0 1em 0;
+}
+#footerLogo {
+  height: 20px;
+  width: 80px;
+  margin-bottom: 1em;
+}
+#social {
+  opacity: 0.37;
+}
+#social img {
+  height: 24px;
+  width: 24px;
+  margin-right: 0.5em;
+}
+.webLinks {
+  display: flex;
+  justify-content: space-between;
+}
+footer li {
+  list-style: none;
+  font-size: 13px;
+  line-height: 23px;
+  font-weight: 400;
+}
+#margin-top {
+  margin-top: 2.2em;
+}
+#heading {
+  font-size: 14px;
+  line-height: 29px;
+  font-weight: 600;
+}
+footer li a {
+  color: var(--grey);
+}
+footer li a:hover {
+  color: black;
+}
+#jobsImgs {
+  height: 24px;
+  width: 24px;
+}
+.linksCol span {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+li span img {
+  border-radius: 50%;
+}
+#adobeImg {
+  width: 130px;
+  height: 100px;
+}
+span h3 {
+  color: black;
+}
+#jobForDesigners {
+  width: 220px;
+}
+.copyright {
+  height: 30px;
+  width: 95%;
+}
+.copyright .content {
+  width: 580px;
+  display: flex;
+  justify-content: space-between;
+}
+.copyright .content p {
+  font-size: 13px;
+  line-height: 21px;
+  font-weight: 400;
+  color: var(--grey);
 }
