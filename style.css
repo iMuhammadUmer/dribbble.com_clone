@@ -8,6 +8,7 @@
   --pink: #ea4c89;
   --lightPink: #f082ac;
   --silver: #f9f8fd;
+  --hr: #e5e5e5;
 }
 a {
   text-decoration: none;
@@ -187,7 +188,7 @@ a {
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
-  margin-top: 2em;
+  margin: 3em 3em;
 }
 .signUp .adobe {
   width: inherit;
@@ -219,4 +220,9 @@ a {
 }
 .signUp a {
   color: var(--pink);
+}
+footer {
+  height: 350px;
+  width: 100%;
+  border-top: 1px solid var(--hr);
 }
