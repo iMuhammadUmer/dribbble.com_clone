@@ -183,5 +183,40 @@ a {
 .signUp {
   width: 600px;
   height: 200px;
-  background-color: #f082ac;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 2em;
+}
+.signUp .adobe {
+  width: inherit;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.adobe img {
+  width: 155px;
+  height: 56px;
+}
+.adobe p {
+  width: 300px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+}
+#btnFreeTrial {
+  width: 94px;
+  height: 40px;
+  color: black;
+}
+#btnSignup {
+  width: 250px;
+  height: 40px;
+  background-color: var(--pink);
+  color: white;
+}
+.signUp a {
+  color: var(--pink);
 }
